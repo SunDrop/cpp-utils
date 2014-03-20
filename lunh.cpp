@@ -21,6 +21,8 @@ int getLunh(std::string code)
 	if (10 == sum) {
 		sum = 0;
 	}
+
+	return sum;
 }
 
 std::string addLunh(std::string code)
